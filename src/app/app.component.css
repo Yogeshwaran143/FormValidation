@@ -1,0 +1,61 @@
+.container {
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+}
+
+.inputAlign {
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    margin: 10px;
+    border: 1px solid black;
+    background-image: url('../assets/forms.jpg');
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content label {
+    font-weight: 1000;
+}
+
+.content button {
+    background-color: darkblue;
+    color: white;
+}
+
+.form-control.ng-touched.ng-invalid {
+    border:1px solid red;
+    text-shadow: red;
+}
+.form-control.ng-touched.ng-valid {
+    border:1px solid green;
+    color: green;
+}
+
+.marginAligin {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .container {
+        margin-top: 30px;
+    }
+
+    .content {
+        width: 500px;
+        height: auto;
+    }
+    
+}
